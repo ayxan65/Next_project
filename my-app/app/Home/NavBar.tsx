@@ -3,10 +3,13 @@ import React from 'react';
 import '../css/home.css';
 import Image from 'next/image';
 import Logo from '../assets/logo1.svg';
+import Hamburger from './Hamburger';
 
 const NavBar = () => {
   return (
-    <div className='border h-full mx-7 py-2'>
+  <>
+      <Hamburger/>
+    <div className='sm:hidden md:hidden lg:block border h-full mx-7 py-2'>
       <div className='flex justify-between items-center gap-12 text-stone-700 py-4 mx-4'>
         <Image src={Logo} alt='photo'></Image>
         <div className='flex gap-12 '>
@@ -25,6 +28,7 @@ const NavBar = () => {
         </div>
       </div>
     </div>
+  </>
   );
 }
 

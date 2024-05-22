@@ -43,7 +43,7 @@ const BottomData = () => {
         <>
             {data.map(({ title, unit, desc }, index) => (
                 <div key={index}>
-                    <div className='w-40 h-40 shadow-2xl flex flex-col items-center justify-center  '>
+                    <div className=' w-40 h-40 shadow-2xl flex flex-col items-center justify-center  '>
                     <div className='my-1 font-black text-3xl text-stone-700' >{title}</div>
                     <div className='my-1 font-bold'>{unit}</div>
                     <div className='my-1'>{desc}</div>
