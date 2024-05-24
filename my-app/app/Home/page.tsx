@@ -4,6 +4,8 @@ import İnfo from './İnfo'
 import NavBar from './NavBar';
 import Header from './Header';
 import HeaderBottom from './HeaderBottom';
+import Motor from './Motor';
+import moto from '../assets/moto2.svg';
 
 
 const Page = () => {
@@ -13,8 +15,9 @@ const Page = () => {
    <NavBar/>
    <Header/>
    <HeaderBottom/>
-    <İnfo/>
-   
+    <İnfo title='Product Information' desc='Our Scooter has following unique design and technology features:' img={moto}/>
+    <Motor/>
+
    </>
   );
 }
