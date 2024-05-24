@@ -9,7 +9,7 @@ const Motor = () => {
             <div className='text-stone-800 font-extrabold text-4xl'>
             High Efficiency Motor
             </div>
-            <div className='mt-3 text-stone-700'>
+            <div className='mt-6 text-stone-700'>
             More torque for powerful riding with 22% maximum hill climbing capability.
 
             </div>

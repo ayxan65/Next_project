@@ -15,7 +15,7 @@ const Acsosories = () => {
             <div className='text-stone-800 font-extrabold text-4xl'>
             Multiple Accessories
             </div>
-            <div className='mt-3 text-stone-700'>
+            <div className='mt-6 text-stone-700'>
             There are multiple modes for the scooter for your multiple needs.
 
             </div>

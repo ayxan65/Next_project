@@ -10,7 +10,7 @@ const Gallery = () => {
     <>
       <div className="flex flex-col items-center mt-16  ">
         <div className="text-stone-800 font-extrabold text-4xl">Gallery</div>
-        <div className="mt-3 text-stone-700">
+        <div className="mt-6 text-stone-700">
           View gallery of our products and make yourself satisfied with our
           creation.
         </div>

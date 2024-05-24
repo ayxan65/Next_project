@@ -8,6 +8,7 @@ import Motor from './Motor';
 import moto from '../assets/moto2.svg';
 import Acsosories from './Acsosories';
 import Gallery from './Gallery';
+import Colors from './Colors';
 
 
 const Page = () => {
@@ -21,6 +22,7 @@ const Page = () => {
     <Motor/>
     <Acsosories/>
     <Gallery/>
+    <Colors/>
 
    </>
   );
