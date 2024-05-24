@@ -7,6 +7,7 @@ import HeaderBottom from './HeaderBottom';
 import Motor from './Motor';
 import moto from '../assets/moto2.svg';
 import Acsosories from './Acsosories';
+import Gallery from './Gallery';
 
 
 const Page = () => {
@@ -19,6 +20,7 @@ const Page = () => {
     <İnfo title='Product Information' desc='Our Scooter has following unique design and technology features:' img={moto}/>
     <Motor/>
     <Acsosories/>
+    <Gallery/>
 
    </>
   );

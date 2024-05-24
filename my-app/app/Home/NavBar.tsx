@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
   <>
       <Hamburger/>
-    <div className='sm:hidden md:hidden lg:block border h-full mx-7 py-2'>
+    <div className=' sm:hidden md:hidden lg:block border h-full mx-7 py-2'>
       <div className='flex justify-between items-center gap-12 text-stone-700 py-4 mx-4'>
        <Link href='/'> <Image src={Logo} alt='photo'></Image></Link>
         <div className='flex gap-12 '>

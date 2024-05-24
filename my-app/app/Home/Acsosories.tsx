@@ -42,7 +42,7 @@ const Acsosories = () => {
       </div>
        
     </div>
-    <Acbutton/>
+    <Acbutton margin='80px' title='More Accessories Coming Soon'/>
     </>
   )
 }
