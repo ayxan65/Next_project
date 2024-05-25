@@ -10,12 +10,15 @@ const Subscribe = () => {
         Subscribe to our newsletter to get amazing offers in the future.
       </div>
  
-       <input
+    <div className="flex my-3">
+    <input
           type="email"
           placeholder="Enter your email"
-          className=" my-3 flex-grow  border-2 rounded-md h-14 w-96 "
+          className="  flex-grow  border-2 rounded-md h-14 w-96 "
         />
       
+      <div><button className="h-14 w-32 flex items-center justify-center rounded-md bg-stone-800 text-white mx-3">Get start</button></div>
+    </div>
        </div>
   
   );
