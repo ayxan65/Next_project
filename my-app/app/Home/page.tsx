@@ -9,6 +9,7 @@ import moto from '../assets/moto2.svg';
 import Acsosories from './Acsosories';
 import Gallery from './Gallery';
 import Colors from './Colors';
+import Testimonials from './Testimonials';
 
 
 const Page = () => {
@@ -23,6 +24,7 @@ const Page = () => {
     <Acsosories/>
     <Gallery/>
     <Colors/>
+    <Testimonials/>
 
    </>
   );
