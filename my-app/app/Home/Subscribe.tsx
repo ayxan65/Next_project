@@ -13,7 +13,7 @@ const Subscribe = () => {
        <input
           type="email"
           placeholder="Enter your email"
-          className="flex-grow px-4 py-2 outline w-96 rounded"
+          className=" my-3 flex-grow  border-2 rounded-md h-14 w-96 "
         />
       
        </div>
