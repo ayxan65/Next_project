@@ -10,6 +10,7 @@ import Acsosories from './Acsosories';
 import Gallery from './Gallery';
 import Colors from './Colors';
 import Testimonials from './Testimonials';
+import Subscribe from './Subscribe';
 
 
 const Page = () => {
@@ -25,6 +26,7 @@ const Page = () => {
     <Gallery/>
     <Colors/>
     <Testimonials/>
+    <Subscribe/>
 
    </>
   );
