@@ -11,6 +11,7 @@ import Gallery from './Gallery';
 import Colors from './Colors';
 import Testimonials from './Testimonials';
 import Subscribe from './Subscribe';
+import Footer from './Footer';
 
 
 const Page = () => {
@@ -27,6 +28,7 @@ const Page = () => {
     <Colors/>
     <Testimonials/>
     <Subscribe/>
+    <Footer/>
 
    </>
   );
